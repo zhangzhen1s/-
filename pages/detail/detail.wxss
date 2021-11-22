@@ -13,13 +13,15 @@ swiper{
   text-align: center;
   display: flex;
   background-color: white;
-  padding: 20rpx;
 }
 .detailtabbar view{
   flex: 1;
+ 
 }
 .detailtabbar .active{
-  border-bottom: 3rpx solid red;
+  background-color: pink;
+  border: 1rpx solid pink;
+  border-radius: 10rpx;
 }
 .user{
   overflow: hidden;
@@ -53,10 +55,12 @@ swiper{
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: white;
   display: flex;
+ 
 }
 .bottom view{
   flex:1;
   color:white;
+  border: 1rpx solid white;
+  border-radius: 10rpx;
 }

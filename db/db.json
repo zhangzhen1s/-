@@ -802,6 +802,14 @@
       "number": 1,
       "checked": false,
       "id": 12
+    },
+    {
+      "username": "张",
+      "tel": "31321",
+      "goodId": 2,
+      "number": 1,
+      "checked": true,
+      "id": 13
     }
   ],
   "users": [

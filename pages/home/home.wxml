@@ -1,22 +1,24 @@
 <!--pages/home/home.wxml-->
-<swiper indicator-dots="{{true}}">
+<swiper indicator-dots="{{true}}" autoplay="true" circular="true">
   <swiper-item wx:for="{{looplist}}" wx:key="index">
     <image src="http://localhost:5000{{item.url}}" mode="widthFix"></image>
   </swiper-item>
 </swiper>
 
 <mp-sticky offset-top="0">
-<view style="width: 100vw;">
+<view style="width: 100vw; margin-top: -5px;">
   <zhangzheng-search bindevent="handleEvent"></zhangzheng-search>
 </view>  
 </mp-sticky>
 
 
 <view wx:for="{{goodlist}}" wx:key="index" class="goodbox" bindtap="handleChangePage" data-id="{{item.id}}" data-name="{{item.title}}">
+  <view class="good">
     <image src="http://localhost:5000{{item.poster}}" mode="widthFix"/>
-    <view>
-      <view>{{item.title}}</view>
+    <view class="msg">
+      <view class="title">{{item.title}}</view>
       <view style="color: red;">价格：￥{{item.price}}</view>
       <view>好评率：{{item.goodcomment}}</view>
     </view>
+  </view>
 </view>

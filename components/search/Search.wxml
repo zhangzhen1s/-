@@ -1,2 +1,2 @@
 <!--components/search/Search.wxml-->
-<input placeholder="请搜索" bindtap="handleTap"/>
+<input placeholder="请搜索" bindtap="handleTap"  autofocus="autofocus" />

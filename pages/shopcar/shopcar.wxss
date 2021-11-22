@@ -5,6 +5,10 @@
   text-align: center;
   background-color: gainsboro;
 }
+.cellfooter{
+    border: 1rpx solid rgb(189, 185, 185);
+    border-radius: 5rpx;
+}
 .content{
   display: flex;
 }

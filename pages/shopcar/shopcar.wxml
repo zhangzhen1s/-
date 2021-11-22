@@ -6,7 +6,7 @@
     <mp-cell>
       <view slot="footer" class="cellfooter">
         <text bindtap="handleMinus" data-item="{{item}}">-</text>
-        <text>{{item.number}}</text>
+        <text style="color: red;">{{item.number}}</text>
         <text bindtap="handleAdd" data-item="{{item}}">+</text>
       </view>
       <view class="content">
@@ -32,6 +32,6 @@
     <checkbox value="aaaa" checked="{{calObj.check(cartList)}}"></checkbox>
   </checkbox-group>
   <view style="margin-right: 20px;">全选</view>
-  <view>合计：￥{{calObj.sum(cartList)}}</view>
+  <view style="color: red;">合计：￥{{calObj.sum(cartList)}}</view>
   <button type="primary" size="mini">去结算</button>
 </view>

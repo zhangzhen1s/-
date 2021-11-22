@@ -6,10 +6,32 @@ swiper{
   height: 297rpx;
 }
 .goodbox{
+  float: left;
   padding: 20rpx;
   overflow: hidden;
+  background-color: rgb(229, 226, 226);
 }
-.goodbox image{
+.goodbox .good{
+  position: relative;
+  width: 330rpx;
+  height: 350rpx;
+  background-color: #fff;
+  border: 1rpx solid white;
+  border-radius: 20rpx;
+}
+.goodbox .good .msg{
+  position:absolute;
+  width: 330rpx;
+  height: 152rpx;
+  margin-top: 210rpx ;
+  text-align: center;
+}
+.goodbox .good image{
   width: 200rpx;
-  float: left;
+  float: left; 
+  margin-left: 75rpx;
+}
+.goodbox .good .title{
+  margin-top: 0;
+  text-align: center;
 }

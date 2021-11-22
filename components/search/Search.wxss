@@ -1,9 +1,9 @@
 /* components/search/Search.wxss */
 input{
-  border: 2px solid #000;
+  border: 2rpx solid rgb(173, 168, 168);
   border-radius: 10rpx;
   margin: 10rpx;
   padding: 10rpx;
-  height: 30rpx;
+  height: 60rpx;
   background-color: white;
 }
